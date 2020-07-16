@@ -1,0 +1,62 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "dist/",
+	"qcloudRoot": "server/",
+	"compileType": "miniprogram",
+	"appid": "wx5ab05c922543615d",
+	"projectname": "bookwish",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "添加图书",
+					"pathName": "pages/books/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "轮播图",
+					"pathName": "pages/comments/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/me/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/detail/main",
+					"query": ""
+				}
+			]
+		}
+	}
+}

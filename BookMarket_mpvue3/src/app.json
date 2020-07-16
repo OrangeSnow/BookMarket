@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/me/main",
+    "pages/comments/main",
+    "pages/books/main",
+    "pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ba996e",
+    "navigationBarTitleText": "图书管理",
+    "navigationBarTextStyle": "light",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/me/main",
+        "text": "首页",
+        "iconPath": "static/img/me.png",
+        "selectedIconPath": "static/img/me-active.png"
+      },
+      {
+        "pagePath": "pages/comments/main",
+        "text": "热门图书",
+        "iconPath": "static/img/todo.png",
+        "selectedIconPath": "static/img/todo-active.png"
+      },
+      {
+          "pagePath": "pages/books/main",
+          "text": "图书列表",
+          "iconPath": "static/img/book.png",
+          "selectedIconPath": "static/img/book-active.png"
+      }
+    ]
+  }
+}
